@@ -11,7 +11,7 @@ export default function Dashboard() {
   const { data: session, } = useSession()
   useEffect(() => {
     if (!session) {
-      router.push('/entrar');
+      router.push('/');
     }
 
   }, [session]);

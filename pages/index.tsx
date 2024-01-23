@@ -11,8 +11,8 @@ export default function Login() {
   const { data: session, } = useSession()
 
   useEffect(() => {
-    if (session) {
-      router.push('/');
+    if (!session) {
+      router.push('/menu');
     }
   }, [session]);
 

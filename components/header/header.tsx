@@ -12,7 +12,7 @@ export const Header = () => {
 
   useEffect(() => {
     if (!session?.user) {
-      router.push('/entrar');
+      router.push('/');
     }
   }, [session]);
   return (
