@@ -5,7 +5,7 @@ import { useSession, signIn } from 'next-auth/react';
 import Header from '@/components/header/header';
 import { useEffect } from 'react';
 
-export default function pdv() {
+export default function Pdv() {
   const router = useRouter();
 
   const { data: session, } = useSession()

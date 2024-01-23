@@ -1,11 +1,11 @@
 import Head from 'next/head'
-import { Button, Col, Container, Row, Spinner } from 'react-bootstrap'
+import { Col, Container, Row, Spinner } from 'react-bootstrap'
 import { useRouter } from 'next/router';
-import { useSession, signIn } from 'next-auth/react';
+import { useSession } from 'next-auth/react';
 import Header from '@/components/header/header';
 import { useEffect } from 'react';
 
-export default function dashboard() {
+export default function Dashboard() {
   const router = useRouter();
 
   const { data: session, } = useSession()
