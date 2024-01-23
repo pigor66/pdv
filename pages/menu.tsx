@@ -54,7 +54,7 @@ export default function Home() {
           </Col>
           <Col xs={12} md={6} className='d-flex justify-content-center pt-5'>
             <InitialCard
-              route='/painel-de-controle'
+              route='/painel-de-controle/inicio'
               image='https://cdn-icons-png.flaticon.com/512/1875/1875501.png'
               title='Painel de controle'
               description='Aqui você vai ver os relatórios de suas vendas e o balanço de caixa.'
