@@ -12,10 +12,8 @@ interface IInitialCard {
 
 const InitialCard = (props: IInitialCard) => {
 
-
-
   return (
-    <Link href={props.route}>
+    <Link href={props.route} style={{ textDecoration: 'none' }}>
       <Card className='p-4 card-hover' style={{ width: '25rem', cursor: 'pointer' }}>
         <Card.Img variant="top" src={props.image} />
         <Card.Body>
